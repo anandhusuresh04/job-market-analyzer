@@ -1,0 +1,149 @@
+{
+  "n_docs": 33206,
+  "n_features": 5000,
+  "silhouette_scores": {
+    "4": 0.011665641199124601,
+    "5": 0.013346924545528537,
+    "6": 0.013467894271297099,
+    "7": 0.013043419599120025,
+    "8": 0.014975820915089696,
+    "9": 0.014507581925699896,
+    "10": 0.015392964710251363
+  },
+  "best_k": 10,
+  "best_silhouette": 0.015392964710251363,
+  "cluster_terms": {
+    "0": [
+      "healthcare",
+      "travel",
+      "nurse",
+      "careerstaff",
+      "registered",
+      "rn",
+      "aya",
+      "assignment",
+      "pay",
+      "unlimited"
+    ],
+    "1": [
+      "equipment",
+      "safety",
+      "maintenance",
+      "manufacturing",
+      "production",
+      "quality",
+      "perform",
+      "duties",
+      "able",
+      "customer"
+    ],
+    "2": [
+      "service",
+      "office",
+      "benefits",
+      "customer",
+      "information",
+      "program",
+      "clients",
+      "client",
+      "services",
+      "insurance"
+    ],
+    "3": [
+      "data",
+      "design",
+      "software",
+      "technical",
+      "engineering",
+      "systems",
+      "development",
+      "security",
+      "cloud",
+      "business"
+    ],
+    "4": [
+      "business",
+      "marketing",
+      "product",
+      "data",
+      "media",
+      "content",
+      "role",
+      "development",
+      "teams",
+      "client"
+    ],
+    "5": [
+      "care",
+      "patient",
+      "patients",
+      "health",
+      "nursing",
+      "hospital",
+      "medical",
+      "healthcare",
+      "nurse",
+      "clinical"
+    ],
+    "6": [
+      "sales",
+      "business",
+      "customer",
+      "customers",
+      "account",
+      "new",
+      "territory",
+      "selling",
+      "opportunities",
+      "relationships"
+    ],
+    "7": [
+      "accounting",
+      "financial",
+      "tax",
+      "finance",
+      "reporting",
+      "accountant",
+      "accounts",
+      "audit",
+      "monthly",
+      "cpa"
+    ],
+    "8": [
+      "store",
+      "customer",
+      "sales",
+      "customers",
+      "merchandise",
+      "retail",
+      "service",
+      "associates",
+      "manager",
+      "merchandising"
+    ],
+    "9": [
+      "project",
+      "construction",
+      "projects",
+      "engineering",
+      "design",
+      "manager",
+      "client",
+      "cost",
+      "technical",
+      "manage"
+    ]
+  },
+  "cluster_sizes": {
+    "0": 911,
+    "1": 4056,
+    "2": 9509,
+    "3": 4979,
+    "4": 4417,
+    "5": 2553,
+    "6": 2413,
+    "7": 1477,
+    "8": 1402,
+    "9": 1489
+  }
+}

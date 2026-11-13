@@ -1,0 +1,29 @@
+﻿# ── Virtual environment ──────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Python cache ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ── Jupyter ──────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Data: raw (user downloads) + processed (regenerated) ─
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# ── Trained models (regenerable from the pipeline) ───────
+models/*.joblib
+
+# ── OS / IDE noise ───────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

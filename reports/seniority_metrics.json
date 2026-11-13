@@ -1,0 +1,84 @@
+{
+  "n_train": 19250,
+  "n_test": 4813,
+  "n_features": 15000,
+  "logistic_regression": {
+    "accuracy": 0.7369623935175567,
+    "macro_f1": 0.7089415711978561,
+    "per_class_report": {
+      "Entry": {
+        "precision": 0.772501130710086,
+        "recall": 0.7659192825112108,
+        "f1-score": 0.7691961269984238,
+        "support": 2230.0
+      },
+      "Mid-Senior": {
+        "precision": 0.7469252601702933,
+        "recall": 0.7014660151043981,
+        "f1-score": 0.7234822451317297,
+        "support": 2251.0
+      },
+      "Director": {
+        "precision": 0.5327868852459017,
+        "recall": 0.7831325301204819,
+        "f1-score": 0.6341463414634146,
+        "support": 332.0
+      },
+      "accuracy": 0.7369623935175567,
+      "macro avg": {
+        "precision": 0.6840710920420937,
+        "recall": 0.7501726092453636,
+        "f1-score": 0.7089415711978561,
+        "support": 4813.0
+      },
+      "weighted avg": {
+        "precision": 0.7440040573506049,
+        "recall": 0.7369623935175567,
+        "f1-score": 0.7385004118769711,
+        "support": 4813.0
+      }
+    }
+  },
+  "random_forest": {
+    "accuracy": 0.7539995844587575,
+    "macro_f1": 0.6845659163129568,
+    "per_class_report": {
+      "Entry": {
+        "precision": 0.8019370460048426,
+        "recall": 0.7426008968609865,
+        "f1-score": 0.7711292200232829,
+        "support": 2230.0
+      },
+      "Mid-Senior": {
+        "precision": 0.7072519083969465,
+        "recall": 0.823189693469569,
+        "f1-score": 0.7608293984808048,
+        "support": 2251.0
+      },
+      "Director": {
+        "precision": 0.9375,
+        "recall": 0.3614457831325301,
+        "f1-score": 0.5217391304347826,
+        "support": 332.0
+      },
+      "accuracy": 0.7539995844587575,
+      "macro avg": {
+        "precision": 0.8155629848005964,
+        "recall": 0.6424121244876952,
+        "f1-score": 0.6845659163129567,
+        "support": 4813.0
+      },
+      "weighted avg": {
+        "precision": 0.7670047077482497,
+        "recall": 0.7539995844587575,
+        "f1-score": 0.749109189265855,
+        "support": 4813.0
+      }
+    }
+  },
+  "labels": [
+    "Entry",
+    "Mid-Senior",
+    "Director"
+  ]
+}
