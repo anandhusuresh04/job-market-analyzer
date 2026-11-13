@@ -117,7 +117,7 @@ def _setup_theme() -> None:
         "axes.linewidth": 0.8,
         "axes.titlesize": 14,
         "axes.titleweight": "bold",
-        "axes.titlepad": 16,
+        "axes.titlepad": 26,
         "axes.labelsize": 11,
         "axes.labelcolor": "#333333",
         "xtick.labelsize": 10,
@@ -147,6 +147,11 @@ def _dollar_fmt(x, _pos):
 
 
 def _subtitle(ax, text: str) -> None:
+    # Add a newline to the main title to push it up, creating space
+    title = ax.get_title()
+    ax.set_title(f"{title}\n", pad=10)
+    
+    # Place the subtitle perfectly in the gap
     ax.text(0.0, 1.02, text, transform=ax.transAxes,
             fontsize=9.5, color="#666666", style="italic")
 
