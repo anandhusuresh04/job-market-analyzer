@@ -92,8 +92,10 @@ TFIDF_KW = dict(
 # would leak the regression target into the features. Removing these
 # gives an honest generalization estimate.
 SALARY_TOKEN_RE = re.compile(
-    r'(?:USD\s*|\$\s*)?\d{1,3}(?:,\d{3})+(?:\.\d+)?'   # 103,700 | $103,700.00
-    r'|\b\d+(?:\.\d+)?k\b',                             # 100k | 100.5k
+    r'(?:USD\s*|\$\s*)?\d{1,3}(?:,\d{3})+(?:\.\d+)?'
+    r'|\b\d+(?:\.\d+)?k\b'
+    r'|\b\d{5,}\b'
+    r'|\b\d+\.\d{2}\b',
     re.IGNORECASE,
 )
 
