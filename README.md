@@ -253,7 +253,7 @@ The portfolio notebook contains the full exploratory data analysis, statistical 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Tools |
 |---|---|
@@ -283,9 +283,25 @@ The portfolio notebook contains the full exploratory data analysis, statistical 
 
 ---
 
-##  Author
 
-**Anandhu Suresh** — BCA Graduate, 2026
-[GitHub](https://github.com/anandhusuresh04) · [LinkedIn](https://www.linkedin.com/in/anandhu-suresh-in)
+<div align="center">
+
+  ###  Engineered by **Anandhu Suresh**
+  *Data Analyst & Machine Learning Practitioner — **Questions First. Numbers Second.***
+  
+  <p align="center">
+    Turning complex, messy datasets into market-moving intelligence, statistical insights, and predictive engines.<br>
+    Always open to collaborating on high-impact data analytics, ML pipelines, and new opportunities.
+  </p>
+
+  <a href="https://www.linkedin.com/in/anandhu-suresh-in/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Anandhu_Suresh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:anandhu.suresh.dev@gmail.com">
+    <img src="https://img.shields.io/badge/Email-anandhu.suresh.dev@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email"/>
+  </a>
+
+</div>
 
 ---
